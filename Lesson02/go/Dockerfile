@@ -1,4 +1,4 @@
-FROM golang:1.9.5
+FROM golang:1.19.6
 
 ADD . /go/src/github.com/trainingbypackt/k8s-client-example
 WORKDIR /go/src/github.com/trainingbypackt/k8s-client-example
